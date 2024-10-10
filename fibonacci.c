@@ -12,7 +12,7 @@ int main(){
     printf("\nEnter your name : \n");
     fgets(user, 50, stdin);
 
-    if(strcmp(user, username) == strlen(username)){
+    if(strcmp(user, username)){
     printf("enter number of how many fibbonaci sequence: ");
     scanf("%d", &terms);
         if(terms < 0){
